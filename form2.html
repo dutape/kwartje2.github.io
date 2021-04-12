@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="form2.css">
+  <script src="https://kit.fontawesome.com/9f8c2c21f1.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+  $(document).ready(function(){
+	$('#icon').click(function(){
+	  $('ul').toggleClass('show');
+	});
+  });
+  </script>
+	<title>formulier2</title>
+</head>
+<body>
+	<div class="container">
+		<nav class="grid-item menu">
+		<label class="logo">Kwartje</label>
+		<a href="home.html">
+		<img class="logomenu" src="logo.jpg" alt="home.html"/>
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">Bier</a></li>
+				<li><a href="#">Evenementen</a></li>
+				<li><a href="#">Over ons</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<label id="icon">
+				<i id="menu" class="fas fa-bars"></i>
+				<i id="user" class="fas fa-user-circle"></i>
+			</label>
+	    </nav>
+		<main class="main">Brouwerij 't Kwartje<br>
+		<br>
+			<p class="content">
+				Blijf op de hoogte van onze beste acties, aanbiedingen,
+				evenementen, limited bier en nieuwtjes. Nooit meer iets missen? Meld je dan nu aan
+				om echt altijd op de hoogte te blijven van alle nieuwe items. Ook laten we je weten
+				wanneer ons bier weer beschikbaar is, indien het er niet meer is.
+			</p>
+			<p class="content" id="oranje">
+				Weet je zeker dat de gegevens die jij hebt ingevuld correct zijn? Zo ja, stuur ons
+				jouw info door. Zo niet, check je gegevens goed en stuur het daarna naar ons op.
+			</p>
+				<a id="button" class="button" href="form3.html">Ja</a>
+				<a id="button" class="button" href="form1.html">Nee</a><br>
+				<img class="gerst" src="gerst.jpg"/><br>
+			<p class="content">
+				Ons bier is met passie gebrouwen waarbij wij altijd opzoek zijn naar de nieuwste,
+				beste en lekkerste smaken. Wil je meer weten over ons bier? Check dan het kopje 
+				bier in ons menu.
+			</p>
+		</main>
+		<div id="sidebar">nieuw:<br>
+			<br>
+			<img class="arcade" src="arcade.png" /><br>
+			<a id="button" class="button" href="#">acties</a><br>
+			<a id="button" class="button" href="#">Blijf op de hoogte!</a><br>
+			<i class="fas fa-level-down-alt"></i>
+			<p>Blijf op de hoogte van acties, limited bier en events.</p><br>
+		</div>
+		<footer class="footer">Kwartje<br>
+		<img class="nix18" src="nix18.jpg" />
+		<div class="topright">
+				<i class="fab fa-facebook fa-3x"></i>
+				<i class="fab fa-instagram fa-3x"></i>
+				<i class="fas fa-comments fa-3x"></i><br>
+				<p>brouwerij 't kwartje</p>
+		</div>
+		</footer>
+	</div>
+</body>
+</html>

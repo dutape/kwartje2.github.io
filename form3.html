@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="form3.css">
+  <script src="https://kit.fontawesome.com/9f8c2c21f1.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+  $(document).ready(function(){
+	$('#icon').click(function(){
+	  $('ul').toggleClass('show');
+	});
+  });
+  </script>
+	<title>formulier3</title>
+</head>
+<body>
+	<div class="container">
+		<nav class="grid-item menu">
+		<label class="logo">Kwartje</label>
+		<a href="home.html">
+		<img class="logomenu" src="logo.jpg" alt="home.html"/>
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">Bier</a></li>
+				<li><a href="#">Evenementen</a></li>
+				<li><a href="#">Over ons</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<label id="icon">
+				<i id="menu" class="fas fa-bars"></i>
+				<i id="user" class="fas fa-user-circle"></i>
+			</label>
+	    </nav>
+		<main class="main">Bedankt!<br>
+		<br>
+			<img class="bedankt" src="bedankt.jpg"/><br>
+			<p class="content">
+				We houden je zo snel mogelijk op de hoogte
+				van alle nieuwe items, acties en evenementen. Ontdek verder alles wat wij in 
+				petto hebben voor jou door naar de home pagina te gaan.
+			</p>
+				<a id="button" class="button" href="home.html">HOME</a><br>
+			<p class="content">
+				Ons bier is met passie gebrouwen waarbij wij altijd opzoek zijn naar de nieuwste,
+				beste en lekkerste smaken. Wil je meer weten over ons bier? Check dan het kopje 
+				bier in ons menu.
+			</p>
+		</main>
+		<div id="sidebar">nieuw:<br>
+			<br>
+			<img class="arcade" src="arcade.png" /><br>
+			<a id="button" class="button" href="#">acties</a><br>
+			<a id="button" class="button" href="#">Blijf op de hoogte!</a><br>
+			<i class="fas fa-level-down-alt"></i>
+			<p>Blijf op de hoogte van acties, limited bier en events.</p><br>
+		</div>
+		<footer class="footer">Kwartje<br>
+		<img class="nix18" src="nix18.jpg" />
+		<div class="topright">
+			<i class="fab fa-facebook fa-3x"></i>
+			<i class="fab fa-instagram fa-3x"></i>
+			<i class="fas fa-comments fa-3x"></i><br>
+			<p>brouwerij 't kwartje</p>
+		</div>
+		</footer>
+	</div>
+</body>
+</html>
